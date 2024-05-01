@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="home"
+            android:icon="@drawable/home_icon"
+
+            />
+        <item
+            android:id="@+id/nav_book"
+            android:title="Books"
+            android:icon="@drawable/baseline_bookreader"
+            />
+        <item
+            android:id="@+id/subject_video"
+            android:title="Subject Video"
+            android:icon="@drawable/baseline_ondemand_video_24"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/share_24"
+            />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About us"
+            android:icon="@drawable/baseline_info_24"
+            />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="logout"
+                />
+        </menu>
+    </item>
+</menu>

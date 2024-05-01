@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.example.ebookapp.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_delay="1000"
+            app:iss_text_align="CENTER"/>
+
+        <TextView
+            android:id="@+id/titleofhome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/berkshire_swash"
+            android:padding="5dp"
+            android:shadowColor="#090808"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="Courses"
+            android:textColor="#2196F3"
+            android:textSize="50sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:padding="5dp"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="150sp"
+                android:layout_weight="1"
+                android:layout_height="250sp"
+                android:backgroundTint="#EFEDED"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail1"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cse2" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/adamina"
+                        android:gravity="center"
+                        android:text="CSE"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="150sp"
+                android:layout_weight="1"
+                android:layout_height="250sp"
+                android:layout_margin="8dp"
+                android:backgroundTint="#EFEDED"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/science" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/adamina"
+                        android:gravity="center"
+                        android:text="Science"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="150sp"
+                android:layout_weight="1"
+                android:layout_height="250sp"
+                android:backgroundTint="#EFEDED"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true">
+                <!--  android:foreground="?android:attr/selectableItemBackground"-->
+
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail3"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/math2" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/adamina"
+                        android:gravity="center"
+                        android:text="Math"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="150sp"
+                android:backgroundTint="#EFEDED"
+                android:layout_weight="1"
+                android:layout_height="250sp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jee" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/adamina"
+                        android:gravity="center"
+                        android:text="Jee"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Navdrawerscratch" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+
+    </style>
+
+    <style name="Theme.Navdrawerscratch" parent="Base.Theme.Navdrawerscratch" />
+
+
+    <style name="CircularProgressBar" parent="Theme.AppCompat"><item name="colorAccent">@color/white</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circular_progress_bar</item>
+    </style>
+
+
+
+
+
+</resources>

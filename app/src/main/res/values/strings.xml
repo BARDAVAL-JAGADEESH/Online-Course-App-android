@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">navdrawerscratch</string>
+    <string name="open_nav">open navigation drawer</string>
+    <string name="close_nav">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="clear">Clear</string>
+    <string name="work_here">Work Here</string>
+
+
+    <string name="book_image_description">Book cover image</string>
+
+
+</resources>

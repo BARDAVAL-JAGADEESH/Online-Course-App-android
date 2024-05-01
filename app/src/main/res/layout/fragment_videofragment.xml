@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ebookapp.VideoFragment">
+    <MediaController
+        android:id="@+id/mediaController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        >
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+
+        android:layout_height="300sp" />
+    </MediaController>
+
+    <TextView
+        android:id="@+id/videotopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="video title"
+        android:paddingLeft="25sp"
+        android:textColor="@color/black"
+
+        android:textSize="26sp"
+        />
+
+
+
+</LinearLayout>

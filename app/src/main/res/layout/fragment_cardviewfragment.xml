@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+       android:gravity="center"
+        android:padding="5dp"
+        >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:backgroundTint="#EFEDED"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="16dp">
+
+            <!-- Thumbnail -->
+            <ImageView
+                android:id="@+id/imageThumbnail1"
+                android:layout_gravity="center"
+
+                android:layout_width="120sp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/computer" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/textTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="C++"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonPlay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/design_default_color_on_primary"
+                android:text="Play"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:backgroundTint="#EFEDED"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/imageThumbnail2"
+                    android:layout_gravity="center"
+
+                    android:layout_width="120sp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cse1" />
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/textTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Python"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/buttonPlay2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/design_default_color_on_primary"
+                    android:text="Play"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:backgroundTint="#EFEDED"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="16dp">
+
+                <!-- Thumbnail -->
+                <ImageView
+                    android:id="@+id/imageThumbnail3"
+                    android:layout_gravity="center"
+
+                    android:layout_width="120sp"
+
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/java" />
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/textTitle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Java"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/buttonPlay3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/design_default_color_on_primary"
+                    android:text="Play"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:backgroundTint="#EFEDED"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="16dp">
+
+                <!-- Thumbnail -->
+                <ImageView
+                    android:id="@+id/imageThumbnail4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/computer" />
+
+                <TextView
+                    android:id="@+id/textTitle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="OS"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/buttonPlay4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/design_default_color_on_primary"
+                    android:text="Play"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="#EFEDED"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:foreground="?android:attr/selectableItemBackground">
+                <!--  android:foreground="?android:attr/selectableItemBackground"-->
+
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail5"
+                        android:layout_width="120dp"
+                        android:layout_height="150sp"
+
+                        android:src="@drawable/html" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="HTML CSS JAVASCRIPT"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/buttonPlay5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/design_default_color_on_primary"
+                        android:text="Play"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="#EFEDED"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <!-- Thumbnail -->
+                    <ImageView
+                        android:id="@+id/imageThumbnail6"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/android1" />
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/textTitle6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Android App development"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+
+                    <Button
+                        android:id="@+id/buttonPlay6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/design_default_color_on_primary"
+                        android:text="Play"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.ebookapp.VideoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:text="Contact Us"
+            android:textStyle="bold"
+            android:background="#B1A8A8"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/youtube"
+                android:id="@+id/youtube_id"
+
+
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram"
+                android:id="@+id/insta_id"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter"
+                android:id="@+id/twiter_id"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="#D1B6B6"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text="For Books  Course Enquiry : "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/email_id"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="jagadeeshbardaval78@gmail.com"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text=" +91 9347052901"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+
+            android:textStyle="bold"
+            android:background="#D6C2C2"
+            android:text="LindinLink"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/lindin_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="https://www.linkedin.com/in/bardaval-jagadeesh/"
+            android:padding="5dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:background="@color/red"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:text="Rate us On Course Quality"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_icon"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_icon"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_icon"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_icon"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_icon"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:background="#BCADAD"
+            android:padding="5dp"
+            android:text="Service we Provided:"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:background="#2CBD21"
+            android:padding="5dp"
+            android:text="This is Bardaval  \n\n Welcome to our online  \n\ncourse platform! \n\n Whether you're a beginner  \n\nor looking to advance your skills, \n\n we offer a diverse range of courses to cater to your learning needs. Our platform provides accessible and comprehensive learning materials designed  \n\nto empower you in your educational journey.
+
+Explore our extensive course catalog covering  \n\nfundamental to advanced topics in various programming \n\n languages and academic subjects:
+
+C Programming Course: Dive into the basics of programming with our C course. Learn how to write efficient and structured code, understand the principles of procedural programming, and master the fundamentals of C programming language.
+C++ Programming Course: Take your programming skills to the next level with our C++ course. Discover object-oriented programming principles, learn about classes, objects, and inheritance, and explore advanced topics such as templates and exceptions handling.
+Java Programming Course: Delve into the world of Java programming with our comprehensive course. From basic syntax to advanced concepts like multithreading and GUI development, our Java course equips you with the skills to develop robust and scalable applications.
+Python Programming Course: Join our Python course and unleash the power of this versatile programming language. Whether you're interested in web development, data analysis, or artificial intelligence, our Python course covers it all. Learn about data structures, control flow, and advanced libraries like NumPy and Pandas.
+JEE Mains Preparation Course: Prepare for your JEE Mains examination with our specialized course. Gain a deeper understanding of key concepts in Physics, Chemistry, and Mathematics, and enhance your problem-solving skills through comprehensive study materials and practice tests.
+Science Courses: Explore the wonders of science through our engaging courses. From biology to physics, chemistry to astronomy, our science courses cover a wide range of topics to spark your curiosity and deepen your understanding of the natural world.
+Mathematics Courses: Master the language of numbers with our mathematics courses. Whether you're brushing up on algebra, delving into calculus, or exploring discrete mathematics, our courses offer clear explanations and interactive exercises to help you excel in mathematics.
+With our user-friendly Android app, learning has never been more convenient. Access your courses anytime, anywhere, and learn at your own pace. Join our community of learners today and embark on a journey of knowledge and growth with our online courses."
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E33667"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight=".08"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/book1"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:text="Developed By Bardaval Jagadeesh"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="LPU Btech Student"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
