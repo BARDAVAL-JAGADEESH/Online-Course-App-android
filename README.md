@@ -5,6 +5,10 @@ The Online Course App is an Android application designed to provide users with c
 course links from various sites, and downloadable PDFs. It caters to diverse user preferences by incorporating interactive features
 \such as a workboard, calculators, quizzes, and music. The app enhances the learning experience by making educational resources readily available.
 
+#Screenshots
+![Screenshot 2024-09-11 221220](https://github.com/user-attachments/assets/1ded66ca-13d9-44a8-86c7-55375514f2cc)
+
+
 ## Features
 - **Video Lectures:** Access a variety of video lectures to support learning.
 - **Course Links:** Quick links to courses from various educational platforms.
@@ -26,3 +30,5 @@ To run the Online Course App on your local machine, follow these steps:
    ```bash
    git clone https://github.com/BARDAVAL-JAGADEESH/Online-Course-App-android.git
    cd Online-Course-App-android
+
+
