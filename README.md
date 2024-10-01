@@ -7,6 +7,9 @@ course links from various sites, and downloadable PDFs. It caters to diverse use
 
 #Screenshots
 
+![gpt](https://github.com/user-attachments/assets/88575573-3173-4227-8f41-c0892693f109)
+
+
 
 ## Features
 - **Video Lectures:** Access a variety of video lectures to support learning.
