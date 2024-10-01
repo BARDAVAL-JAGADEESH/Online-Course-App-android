@@ -11,6 +11,13 @@ course links from various sites, and downloadable PDFs. It caters to diverse use
 ![cou](https://github.com/user-attachments/assets/f0510abd-e4a0-4aea-b2d7-2ab05be5ad93)
 ![drawer](https://github.com/user-attachments/assets/f3d0cf01-a2d3-41b2-a2e4-d8f7f83a4bc9)
 ![floating](https://github.com/user-attachments/assets/62ab32a7-f9ac-4252-b64c-7d9f38e66053)
+![flo](https://github.com/user-attachments/assets/00026655-867a-42b6-8e4b-aba28628fc6a)
+
+
+![qui](https://github.com/user-attachments/assets/d53a9b1f-9245-4516-b51a-46a5971688e4)
+![quiz](https://github.com/user-attachments/assets/01a6bce8-0fc1-4702-8c2c-a7340c700689)
+![calc](https://github.com/user-attachments/assets/88e6a7dd-9456-46fa-8ed4-a90f5c9bd9e5)
+
 
 
 
