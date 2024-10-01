@@ -4,13 +4,13 @@
 The Online Course App is an Android application designed to provide users with convenient access to video lectures, 
 course links from various sites, and downloadable PDFs. It caters to diverse user preferences by incorporating interactive features
 \such as a workboard, calculators, quizzes, and music. The app enhances the learning experience by making educational resources readily available.
-
 # Screenshots
-<img src="https://github.com/user-attachments/assets/6179566d-c165-4737-b1f6-0394821c48c3" width="400" alt="splash">
+<img src="https://github.com/user-attachments/assets/6179566d-c165-4737-b1f6-0394821c48c3" width="400" alt="splash" style="margin-bottom: 20px;">
 
 
-#homescreen
+# Homescreen
 <img src="https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10" width="400" alt="home">
+
 
 
 
