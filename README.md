@@ -8,6 +8,8 @@ course links from various sites, and downloadable PDFs. It caters to diverse use
 #Screenshots
 
 ![splash](https://github.com/user-attachments/assets/6179566d-c165-4737-b1f6-0394821c48c3) ![home](https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10)
+![cou](https://github.com/user-attachments/assets/f0510abd-e4a0-4aea-b2d7-2ab05be5ad93)
+![floating](https://github.com/user-attachments/assets/62ab32a7-f9ac-4252-b64c-7d9f38e66053)
 
 
 ![gpt](https://github.com/user-attachments/assets/88575573-3173-4227-8f41-c0892693f109) 
