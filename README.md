@@ -9,9 +9,10 @@ course links from various sites, and downloadable PDFs. It caters to diverse use
 
 
 # Homescreen
-<img src="https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10" width="400" alt="home">
+<img src="https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10" width="400" alt="home" style="margin-bottom: 20px;">
 
 <img src="https://github.com/user-attachments/assets/f0510abd-e4a0-4aea-b2d7-2ab05be5ad93" width="400" alt="cou" style="margin-bottom: 20px;">
+
 
 
 
