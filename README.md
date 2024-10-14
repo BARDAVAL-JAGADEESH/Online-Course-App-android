@@ -22,15 +22,6 @@ course links from various sites, and downloadable PDFs. It caters to diverse use
 
 
 
-![qui](https://github.com/user-attachments/assets/d53a9b1f-9245-4516-b51a-46a5971688e4)
-![quiz](https://github.com/user-attachments/assets/01a6bce8-0fc1-4702-8c2c-a7340c700689)
-![calc](https://github.com/user-attachments/assets/88e6a7dd-9456-46fa-8ed4-a90f5c9bd9e5)
-
-
-
-
-
-![gpt](https://github.com/user-attachments/assets/88575573-3173-4227-8f41-c0892693f109) 
 
 
 
