@@ -5,18 +5,20 @@ The Online Course App is an Android application designed to provide users with c
 course links from various sites, and downloadable PDFs. It caters to diverse user preferences by incorporating interactive features
 \such as a workboard, calculators, quizzes, and music. The app enhances the learning experience by making educational resources readily available.
 # Screenshots
-<img src="https://github.com/user-attachments/assets/6179566d-c165-4737-b1f6-0394821c48c3" width="400" alt="splash" style="margin-bottom: 10px;">
+<img src="https://github.com/user-attachments/assets/6179566d-c165-4737-b1f6-0394821c48c3" width="200" alt="splash" style="margin-bottom: 10px;">
 
 
 # Homescreen
-<img src="https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10" width="400" alt="home" style="margin-bottom: 20px;">
-
-<img src="https://github.com/user-attachments/assets/f0510abd-e4a0-4aea-b2d7-2ab05be5ad93" width="400" alt="cou" style="margin-bottom: 20px;">
-
+<img src="https://github.com/user-attachments/assets/08e01575-4902-4066-a7b4-0380aa9a5a10" width="200" alt="home" style="margin-bottom: 20px;"> 
+  <img src="https://github.com/user-attachments/assets/f0510abd-e4a0-4aea-b2d7-2ab05be5ad93" width="200" alt="cou" style="margin-bottom: 20px;">
 
 
+##✍️ Draw or Write: Users can freely draw or write on the board using touch or stylus input.
+🧹 Clear Functionality: A simple button allows users to clear the written content quickly.
+📲 User-Friendly Interface: Intuitive design for seamless interaction and easy access to drawing
 
-<img src="https://github.com/user-attachments/assets/62ab32a7-f9ac-4252-b64c-7d9f38e66053" width="400" alt="floating" style="margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/62ab32a7-f9ac-4252-b64c-7d9f38e66053" width="200" alt="floating" style="margin-bottom: 20px;"> 
+
 
 
 
